@@ -1,0 +1,49 @@
+body {
+  background-color: #c7c7c7;
+}
+
+body main ul {
+  list-style-type: none;
+}
+
+body main ul a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+body main ul .create-new-ospite {
+  padding: 10px 0;
+}
+
+body main ul label {
+  font-size: 18px;
+}
+
+body main ul input {
+  width: 30%;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+body main ol a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+body main .home {
+  margin-left: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #398eff;
+  color: black;
+}
+
+body main .home:hover {
+  background-color: #ffb967;
+}
+
