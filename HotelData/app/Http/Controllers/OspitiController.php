@@ -30,8 +30,8 @@ class OspitiController extends Controller
 
 
     $validate = $request -> validate ([
-      'name' => 'min:2|max:50',
-      'lastname' => 'min:2|max:50',
+      'name' => 'required|min:2|max:50',
+      'lastname' => 'required|min:2|max:50',
       'date_of_birth' => 'nullable|date',
       'document_type' => 'nullable|max:25',
       'document_number' => 'nullable|max:20',
